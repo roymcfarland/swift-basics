@@ -98,3 +98,45 @@ import UIKit
 ////////// UNARY OPERATORS //////////
 /////////////////////////////////////
 
+// var levelScore = 0
+// var totalScore = 0
+// levelScore++
+// totalScore = ++levelScore
+// levelScore--
+// totalScore = --levelScore
+
+// // ++ increment unary operator
+// // -- decrement unary operator
+// // - negative operator
+
+// // levelScore = -levelScore (equals) levelScore * -1
+
+// // ! NOT operator
+// let on = true
+// let off = !on
+
+
+//////////////////////////////////////
+///////////// ARRAYS /////////////////
+//////////////////////////////////////
+
+// // Implicit (Inferred)
+// var todo = ["Return emails", "Return calls", "Walk dogs"]
+
+// // Explicit
+// var todo: [String] = ["Return emails", "Return calls", "Walk dogs"]
+
+// todo += ["Pickup laundry", "Change diapers", "Cook dinner"]
+
+// todo[2] // Walk dogs
+// todo.count
+
+
+///////////////////////////////////////
+///////// MODIFYING ARRAYS ////////////
+///////////////////////////////////////
+
+
+
+
+
