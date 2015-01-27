@@ -56,8 +56,45 @@ import UIKit
 ///////////// NUMBERS //////////////
 ////////////////////////////////////
 
-let language = "Swift" // String
-let year = 2014 // Int (Integer)
-var version = 1.0 // Double = 15 decimals & Float = 7 decimals (Double is default)
-var isAwesome = true // Bool (Boolean)
+// let language = "Swift" // String
+// let year = 2014 // Int (Integer)
+// var version = 1.0 // Double = 15 decimals & Float = 7 decimals (Double is default)
+// var isAwesome = true // Bool (Boolean)
+
+
+////////////////////////////////////
+///////// BINARY OPERATORS /////////
+////////////////////////////////////
+
+// let height = 12 // In Feet
+// let width = 10 // In Feet
+// let area = height * width
+
+// // 1 sq. meter = 1 sq. foot / 10.764
+// let areaInMeters = Double(area) / 10.764
+
+// let chairWidth = 3
+// let spaceRemaining = width % chairWidth
+// let chairs = width / chairWidth
+
+
+/////////////////////////////////////
+/////// OPERATOR PRECEDENCE /////////
+/////////////////////////////////////
+
+// Precedence level 150
+// - multiplication (*)
+// - division (/)
+// - remainder (%)
+
+// Precedence level 140
+// - addition (+)
+// - subtraction (-)
+
+// Generally: left to right
+
+
+/////////////////////////////////////
+////////// UNARY OPERATORS //////////
+/////////////////////////////////////
 
