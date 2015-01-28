@@ -136,7 +136,55 @@ import UIKit
 ///////// MODIFYING ARRAYS ////////////
 ///////////////////////////////////////
 
+// var todo = ["Return emails", "Return calls", "Walk dogs", "Change diapers"]
+
+// // Adding an array item to the end of the array
+// todo.append("Cook dinner")
+// println(todo)
+
+// // Modify an array item on the fly
+// todo[4] = "Clean dishes"
+// println(todo)
+
+// // Store a removed item in a constant (or variable)
+// let item1 = todo.removeLast()
+// println(item1)
+// let item2 = todo.removeAtIndex(1)
+// println(item2)
+
+// // Adding an array item in a specific index position
+// todo.insert("Call Mom", atIndex: 0)
+// println(todo)
 
 
+////////////////////////////////////////
+//////////// DICTIONARIES //////////////
+////////////////////////////////////////
+
+// Code     Country Name
+// or
+// Key      Value
+
+// CA       Canada
+// BE       Belgium
+// FR       France
+// DE       Germany
+// UK       United Kingdom
+// US       United States
+
+var countries = [   "CA": "Canada",
+                    "BE": "Belgium",
+                    "FR": "France" ]
+
+countries["CA"] // some "Canada"
+countries["US"] // nil
+
+countries["US"] = "United States" // Some United States
+countries
+
+countries["US"] = "United States of America" // Some United States of America
+
+let item = countries.removeValueForKey("CA")
+item // Some Canada
 
 
