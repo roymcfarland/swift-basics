@@ -172,19 +172,68 @@ import UIKit
 // UK       United Kingdom
 // US       United States
 
-var countries = [   "CA": "Canada",
-                    "BE": "Belgium",
-                    "FR": "France" ]
+// var countries = [   "CA": "Canada",
+//                     "BE": "Belgium",
+//                     "FR": "France" ]
 
-countries["CA"] // some "Canada"
-countries["US"] // nil
+// countries["CA"] // some "Canada"
+// countries["US"] // nil
 
-countries["US"] = "United States" // Some United States
-countries
+// countries["US"] = "United States" // Some United States
+// countries
 
-countries["US"] = "United States of America" // Some United States of America
+// countries["US"] = "United States of America" // Some United States of America
 
-let item = countries.removeValueForKey("CA")
-item // Some Canada
+// let item = countries.removeValueForKey("CA")
+// item // Some Canada
+
+
+//////////////////////////////////////////
+////////////// FOR-IN LOOPS //////////////
+//////////////////////////////////////////
+
+// var todo : [String] = ["Return calls", "Return emails", "Cook dinner", "Change diapers", "Walk dogs"]
+
+// for item in todo {
+//     println(item)
+// }
+
+// for number in 1...10 {
+//     println("\(number) times 2 is \(number*2)")
+// }
+
+// for number in 1..<10 {
+//     println("\(number) times 2 is \(number*2)")
+// }
+
+
+////////////////////////////////////////////
+///////// WHILE & DO-WHILE LOOPS ///////////
+////////////////////////////////////////////
+
+var todo : [String] = ["Return calls", "Return emails", "Cook dinner", "Change diapers", "Walk dogs"]
+
+// // WHILE LOOP
+var index = 0
+while index < todo.count {
+    println(todo[index])
+    index++
+}
+
+// // DO-WHILE LOOP
+index = 0
+do {
+    println(todo[index])
+    index++
+} while index < todo.count
+
+
+//////////////////////////////////////////////
+///////// FOR-CONDITION-INCREMENT ////////////
+//////////////////////////////////////////////
+
+
+
+
 
 
