@@ -211,26 +211,51 @@ import UIKit
 ///////// WHILE & DO-WHILE LOOPS ///////////
 ////////////////////////////////////////////
 
-var todo : [String] = ["Return calls", "Return emails", "Cook dinner", "Change diapers", "Walk dogs"]
+// var todo : [String] = ["Return calls", "Return emails", "Cook dinner", "Change diapers", "Walk dogs"]
 
 // // WHILE LOOP
-var index = 0
-while index < todo.count {
-    println(todo[index])
-    index++
-}
+// var index = 0
+// while index < todo.count {
+//     println(todo[index])
+//     index++
+// }
 
 // // DO-WHILE LOOP
-index = 0
-do {
-    println(todo[index])
-    index++
-} while index < todo.count
+// index = 0
+// do {
+    // println(todo[index])
+    // index++
+// } while index < todo.count
 
 
 //////////////////////////////////////////////
-///////// FOR-CONDITION-INCREMENT ////////////
+////// FOR-CONDITION-INCREMENT LOOPS /////////
 //////////////////////////////////////////////
+
+// var todo : [String] = ["Return calls", "Return emails", "Cook dinner", "Change diapers", "Walk dogs"]
+
+// for var i = 0; i < todo.count; i++ {
+//     println(todo[i])
+// }
+
+
+//////////////////////////////////////////////
+/////////// CONDITIONALS: IF /////////////////
+//////////////////////////////////////////////
+
+let cards = 1...13 // same as 1..<14
+
+for card in cards {
+    if card == 11 {
+        println("Jack")
+    } else if card == 12 {
+        println("Queen")
+    } else if card == 13 {
+        println("King")
+    } else {
+        println(card)
+    }
+}
 
 
 
