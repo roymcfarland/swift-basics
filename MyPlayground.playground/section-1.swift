@@ -243,22 +243,109 @@ import UIKit
 /////////// CONDITIONALS: IF /////////////////
 //////////////////////////////////////////////
 
-let cards = 1...13 // same as 1..<14
+// let cards = 1...13 // same as 1..<14
 
+// for card in cards {
+//     if card == 11 {
+//         println("Jack")
+//     } else if card == 12 {
+//         println("Queen")
+//     } else if card == 13 {
+//         println("King")
+//     } else {
+//         println(card)
+//     }
+// }
+
+
+//////////////////////////////////////////////
+//////////// SWITCH STATEMENT ////////////////
+//////////////////////////////////////////////
+
+// let cards = 1...13 // same as 1..<14
+
+/*
 for card in cards {
-    if card == 11 {
+    switch card {
+    case 11:
         println("Jack")
-    } else if card == 12 {
+    case 12:
         println("Queen")
-    } else if card == 13 {
+    case 13:
         println("King")
-    } else {
+    default:
         println(card)
     }
 }
+*/
+
+/*
+for card in cards {
+    switch card {
+    case 1,11...13:
+        println("Trump cards")
+    default:
+        println(card)
+    }
+}
+*/
 
 
+//////////////////////////////////////////////
+/////// COMPARISON & LOGICAL OPERATORS ///////
+//////////////////////////////////////////////
+
+/*
+1 == 1 // true because 1 is equal to 1
+2 != 1 // true becuse 2 is not equal to 1
+2 > 1 // true because 2 is greater than 1
+1 < 2 // true because 1 is less than 2
+1 >= 1 // true because 1 is greater than or equal to 1
+2 <= 1 // false because 2 is not less than or equal to 1
+
+var distance = 20 // in miles
+
+if distance < 5 {
+    println("\(distance) miles is near")
+} else if distance >= 5 && distance <= 20 {
+    println("\(distance) miles is close")
+} else {
+    println("\(distance) miles is far")
+}
+
+// && is the AND operator
+// || is the OR operator
+// ! is the NOT operator
+*/
 
 
+//////////////////////////////////////////////
+////////// A FIZZBUZZ GENERATOR //////////////
+//////////////////////////////////////////////
+
+/*
+for number in 1...100 {
+    if (number % 3 == 0) && (number % 5 == 0) {
+        println("FizzBuzz")
+    } else if (number % 5 == 0) {
+        println("Buzz")
+    } else if (number % 3 == 0) {
+        println("Fizz")
+    } else {
+        println(number)
+    }
+}
+*/
 
 
+//////////////////////////////////////////////
+////////// ODD OR EVEN GENERATOR /////////////
+//////////////////////////////////////////////
+
+for number in 1...100 {
+    if (number % 2 == 0) {
+        println("This number is even.")
+    } else {
+        println("This number is odd.")
+    }
+}
